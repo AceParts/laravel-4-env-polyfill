@@ -1,0 +1,18 @@
+{
+    "name": "zvps/laravel-4-env-polyfill",
+    "description": "Enables the env() function for providing default environment values and retrieving a variable from $_ENV.",
+    "require": {
+        "laravel/framework": "4.2.*"
+    },
+    "autoload": {
+		"files": ["src/getallheaders.php"]
+	},
+    "license": "GPL 3.0",
+    "authors": [
+        {
+            "name": "Kevin Andrews",
+            "email": "kevin@zvps.uk"
+        }
+    ],
+    "minimum-stability": "dev"
+}
