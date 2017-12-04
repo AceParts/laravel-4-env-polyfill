@@ -3,7 +3,7 @@
 Laravel 5 has a nice function `env()` which can assign a default variable if empty/null/blank. 
 
 Laravel 4 applications are generally missing this functionality and if not running on >= `PHP 7.0` can't use the ?? notation 
-to keep (isset($_ENV(thing))) ? $_ENV(thing) : default short and sweet e.g $_ENV(thing) ?? default.
+to keep `(isset($_ENV(thing))) ? $_ENV(thing) : default` short and sweet e.g `$_ENV(thing) ?? default`.
 
 ## Installation
 
