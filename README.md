@@ -44,7 +44,7 @@ Without polyfill:
 
 With polyfill:
 
-    'host'      => env(DATABASE_HOST, 'localhost')
+    'host'      => env('DATABASE_HOST', 'localhost')
     'database'  => env('DATABASE_NAME', 'default_db'),
     'username'  => env('DATABASE_USER', 'default_user'),
     'password'  => env('DATABASE_PASSWORD', 'default_pass')
