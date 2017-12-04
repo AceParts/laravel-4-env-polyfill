@@ -5,7 +5,7 @@
         "laravel/framework": "4.2.*"
     },
     "autoload": {
-		"files": ["src/getallheaders.php"]
+		"files": ["src/env.php"]
 	},
     "license": "GPL 3.0",
     "authors": [
